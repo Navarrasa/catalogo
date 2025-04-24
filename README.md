@@ -26,9 +26,11 @@ Você pode também alterar suas informações de perfil
 - Outlet (Single Web Page);
 - Manipulação de dados de API's.
 
-"""
-Este Website faz parte do conjunto de atividades Senai, nas aulas de Programação FrontEnd, presente no repositório
-`https://github.com/Navarrasa/Portfolio-PWFE`
+
+#### Este Website faz parte do conjunto de atividades Senai, nas aulas de Programação FrontEnd, presente no repositório
+[Repositório](https://github.com/Navarrasa/Portfolio-PWFE/)
+<br>
 ou caso queira preferir visitar o site
-[Portfolio-PWFE](https://navarrasa.github.io/Portfolio-PWFE/)
-"""
+<br>
+[Website](https://navarrasa.github.io/Portfolio-PWFE/)
+
