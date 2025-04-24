@@ -6,6 +6,12 @@ Você pode também alterar suas infoemações de perfil
 
 ## Tecnologias utilizadas
 - React + Vite
+- HTML5
+- CSS3
+- Javascript
+
+[![My Skills](https://skillicons.dev/icons?i=react,js,vite,html,css)](https://skillicons.dev)
+
 
 ## Sinta-se a vontade para clonar este repositório e fazer as devidas alterações para aprender um pouco mais sobre como criar aplicações React na Web.
 
@@ -20,5 +26,3 @@ Você pode também alterar suas infoemações de perfil
 - Outlet (Single Web Page);
 - Manipulação de dados de API's.
 
-
-[![My Skills](https://skillicons.dev/icons?i=react,js,vite,html,css)](https://skillicons.dev)
