@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  
+  .titulo {
+    margin-bottom: 20px;
+  }
+  
+  .titulo h1 {
+    font-size: 2rem;
+    color: #333;
+  }
