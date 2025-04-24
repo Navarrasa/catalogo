@@ -27,7 +27,7 @@ Você pode também alterar suas informações de perfil
 - Manipulação de dados de API's.
 
 
-#### Este Website faz parte do conjunto de atividades Senai, nas aulas de Programação FrontEnd, presente no repositório
+## Este Website faz parte do conjunto de atividades Senai, nas aulas de Programação FrontEnd, presente no repositório
 [Repositório](https://github.com/Navarrasa/Portfolio-PWFE/)
 <br>
 ou caso queira preferir visitar o site
