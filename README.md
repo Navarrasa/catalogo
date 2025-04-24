@@ -2,7 +2,7 @@
 
 Este é um website criado para a listagem de filmes e séries
 
-Você pode também alterar suas infoemações de perfil
+Você pode também alterar suas informações de perfil
 
 ## Tecnologias utilizadas
 - React + Vite
@@ -26,3 +26,9 @@ Você pode também alterar suas infoemações de perfil
 - Outlet (Single Web Page);
 - Manipulação de dados de API's.
 
+"""
+Este Website faz parte do conjunto de atividades Senai, nas aulas de Programação FrontEnd, presente no repositório
+`https://github.com/Navarrasa/Portfolio-PWFE`
+ou caso queira preferir visitar o site
+[Portfolio-PWFE](https://navarrasa.github.io/Portfolio-PWFE/)
+"""
