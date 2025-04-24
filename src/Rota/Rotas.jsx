@@ -8,10 +8,10 @@ export function Rotas(){
     return(
         <Routes>
 
-            <Route path = '/catalogo_de_filmes/' element = {<Inicial/>}>
-                <Route index element = {<Lista/>}/>
-                <Route path = '/catalogo_de_filmes/perfil/' element = {<Perfil/>}/>
-                <Route path = '/catalogo_de_filmes/series/' element = {<ListaSerie/>}/> 
+            <Route path = '/catalogo_de_filmes' element = {<Inicial/>}>
+                <Route path = '/' element = {<Lista/>}/>
+                <Route path = '/perfil' element = {<Perfil/>}/>
+                <Route path = '/series' element = {<ListaSerie/>}/> 
             </Route>
 
         </Routes>        
