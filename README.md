@@ -34,6 +34,6 @@ Visite o repositório!
 <br>
 ou caso queira preferir visitar o site
 <br>
-[Website](https://navarrasa.github.io/Portfolio-PWFE/)
+[Website](https://navarrasa.github.io/catalogo/)
 <br>
 
