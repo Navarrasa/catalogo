@@ -4,11 +4,10 @@
     height: 100%;
     padding: 1rem;
 
-
 }
 .posters{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     width: 100%;
     justify-content: center;
 }
@@ -23,4 +22,45 @@
     flex-direction: column;
     width: 100%;
     color: black;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+
+    .posters{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 1024px){
+    .conteiner{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    
+    
+    }
+    .posters{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 1rem;
+        align-items: center;
+        font-weight: bold;
+        flex-direction: column;
+        width: 100%;
+        color: black;
+    }
 }

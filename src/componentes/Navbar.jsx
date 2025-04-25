@@ -13,7 +13,7 @@ export function Navbar() {
         </li>
         <li>
           <Link className={estilos.text_lines} to="/catalogo/series">
-            <span className="material-symbols-outlined">movie</span>
+            <span className="material-symbols-outlined mat">movie</span>
             Séries
           </Link>
         </li>
