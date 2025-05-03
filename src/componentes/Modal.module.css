@@ -79,4 +79,6 @@ button{
     align-items: center;
     text-align: left;
     gap: 10px;
+    color: white;
+    list-style: none;
 }
