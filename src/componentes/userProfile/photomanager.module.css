@@ -1,28 +1,57 @@
+/* Estilo base - Mobile First (até 575px) */
 .photoContainer {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profilePhoto {
+  width: 150px; /* Tamanho reduzido para dispositivos móveis */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.uploadIcon {
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+}
+
+/* Tablet: 576px a 1079px */
+@media (min-width: 576px) and (max-width: 1079px) {
   .profilePhoto {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 180px; /* Tamanho ajustado para tablets */
+    height: 180px;
   }
-  
+
   .uploadIcon {
-    bottom: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 24px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    padding: 5px;
-    color: white;
+    font-size: 22px; /* Ícone maior para tablets */
   }
+}
+
+/* Desktop: 1080px ou mais */
+@media (min-width: 1080px) {
+  .photoContainer {
+    margin: 40px auto; /* Margem maior em telas grandes */
+  }
+
+  .profilePhoto {
+    width: 200px; /* Tamanho padrão para desktops */
+    height: 200px;
+  }
+
+  .uploadIcon {
+    font-size: 24px; /* Ícone maior para desktops */
+  }
+}

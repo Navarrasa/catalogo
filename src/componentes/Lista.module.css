@@ -1,66 +1,50 @@
-.conteiner{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
-
-}
-.posters{
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
-    justify-content: center;
+/* Estilo base - Mobile First (até 575px) */
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
+.posters {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  align-items: center;
+  font-weight: bold;
+  flex-direction: column;
+  width: 100%;
+  color: black;
+}
+
+/* Tablet: 576px a 1079px */
+@media (min-width: 576px) and (max-width: 1079px) {
+  .posters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .titulo {
     font-size: 2rem;
-    padding: 1rem;
-    align-items: center;
-    font-weight: bold;
-    flex-direction: column;
-    width: 100%;
-    color: black;
+  }
 }
 
-@media (min-width: 640px) and (max-width: 1023px) {
+/* Desktop: 1080px ou mais */
+@media (min-width: 1080px) {
+  .posters {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .posters{
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-}
-
-@media (min-width: 1024px){
-    .conteiner{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        padding: 1rem;
-    
-    
-    }
-    .posters{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    .titulo{
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-        padding: 1rem;
-        align-items: center;
-        font-weight: bold;
-        flex-direction: column;
-        width: 100%;
-        color: black;
-    }
+  .titulo {
+    font-size: 2.5rem;
+  }
 }

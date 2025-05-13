@@ -1,32 +1,73 @@
+/* Estilo base - Mobile First (até 575px) */
 .infoContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   gap: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   padding: 20px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.label {
+  font-weight: bold;
+  width: 100%; /* Label ocupa 100% no mobile */
+}
+
+.value,
+.input {
+  width: 100%; /* Os inputs ocupam 100% no mobile */
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tablet: 576px a 1079px */
+@media (min-width: 576px) and (max-width: 1079px) {
+  .infoContainer {
+    width: 80%; /* Ajuste a largura no tablet */
   }
-  
+
   .infoRow {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    flex-direction: row;
   }
-  
+
   .label {
-    font-weight: bold;
-    width: 40%;
+    width: 40%; /* Label ocupa 40% da linha */
   }
-  
+
   .value,
   .input {
-    width: 60%;
+    width: 60%; /* Input ocupa 60% da linha */
   }
-  
+}
+
+/* Desktop: 1080px ou mais */
+@media (min-width: 1080px) {
+  .infoContainer {
+    width: 50%; /* Ajuste a largura para desktop */
+  }
+
+  .infoRow {
+    flex-direction: row;
+  }
+
+  .label {
+    width: 30%; /* Label ocupa 30% da linha */
+  }
+
+  .value,
   .input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 70%; /* Input ocupa 70% da linha */
   }
+}

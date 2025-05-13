@@ -1,18 +1,42 @@
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(53, 49, 49);
-    height: 80px;
-    
-    & h1{
-        color: white;
-        font-size: 32px;
-    }
+/* Estilo base - Mobile First (até 575px) */
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 49, 49);
+  height: 80px;
 }
 
+.cabecalho h1 {
+  color: white;
+  font-size: 1.5rem;
+}
 
-.logo{
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+/* Tablet: 576px a 1079px */
+@media (min-width: 576px) and (max-width: 1079px) {
+  .cabecalho h1 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Desktop: 1080px ou mais */
+@media (min-width: 1080px) {
+  .cabecalho h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
     width: 80px;
     height: 80px;
+  }
 }
