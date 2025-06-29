@@ -7,7 +7,7 @@ import { ListaSerie } from '../componentes/ListaSerie';
 export function Rotas() {
   return (
     <Routes>
-      <Route path="/catalogo/" element={<Inicial />}>
+      <Route path="/" element={<Inicial />}>
         <Route index element={<Lista />} /> {/* Rota padrão para /catalogo */}
         <Route path="perfil" element={<Perfil />} /> {/* /catalogo/perfil */}
         <Route path="series" element={<ListaSerie />} /> {/* /catalogo/series */}
